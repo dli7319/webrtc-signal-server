@@ -10,10 +10,6 @@ on:
     branches: [ "main" ]
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
-    paths:
-      - .github/workflows/**
-      - Dockerfile
-      - supervisord.conf
   workflow_dispatch: {}
 
 env:
