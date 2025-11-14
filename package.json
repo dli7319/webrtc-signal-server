@@ -1,0 +1,28 @@
+{
+  "name": "webrtc-signal-server",
+  "version": "1.0.0",
+  "description": "Simple WebRTC Signaling Server",
+  "homepage": "https://github.com/dli7319/webrtc-signal-server#readme",
+  "bugs": {
+    "url": "https://github.com/dli7319/webrtc-signal-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dli7319/webrtc-signal-server.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/node": "^24.10.1",
+    "@types/ws": "^8.18.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "ws": "^8.18.3"
+  }
+}
